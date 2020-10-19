@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+* {
+    font-family: 'Ramabhadra', sans-serif;
+}
+*:focus {
+    outline: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*::-webkit-scrollbar {
+    display: none;
   }
+
+body{
+    background-color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inp-box {
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    text-align:center;
 }
 
-.App-link {
-  color: #61dafb;
+.inp_btn{
+    background-color: #1A98D0;
+    outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inp_btn:focus{
+    outline: none;
 }
+
+.todo_list {
+    height: 55vh;
+    overflow: scroll;
+}
+
+.del {
+    color: #000;
+}
+  
