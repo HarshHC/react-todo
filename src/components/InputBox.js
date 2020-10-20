@@ -28,6 +28,7 @@ function InputBox({setTodos, todos}) {
                 <input 
                   value={input}
                   onChange= {event => setInput(event.target.value)}
+                  placeholder="write your task here"
                   className="shadow-xl text-center place-self-center sm:flex-col m-2 w-5/6 rounded-lg p-3  bg-gray-200"></input>
                   <button 
                     disabled={!input}
