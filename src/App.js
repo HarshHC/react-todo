@@ -12,6 +12,14 @@ function App() {
     {
       text: 'sample todo (tap me)',
       complete: false
+    },
+    {
+      text: 'You can add this as an app on your home screen',
+      complete: true
+    },
+    {
+      text: 'On iOS - tap share > "Add to Home Screen"  |  On Android - chrome options on top right > "Add to Home Screen"',
+      complete: false
     }
   ])
 
